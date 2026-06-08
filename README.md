@@ -13,6 +13,7 @@ This project helps businesses, agricultural planners, and policymakers in Thaila
 * **Language:** Python
 * **Libraries & Packages:** pandas, numpy, matplotlib, seaborn, kagglehub, scikit-learn, prophet, statsmodels, pmdarima, lightgbm, optuna
 * **Tools:** Jupyter Notebook
+* **Data Source:** [Thailand Weather 2022 - 2025](https://www.kaggle.com/datasets/sakdaphoda/thai-weather-2022-2025/data?select=Thailand_Weather_NASA_2022_2025.csv)
 
 ## Project Features Explanation
 The dataset used in this project is the **Thailand Weather 2022 - 2025** dataset sourced from NASA via Kaggle. The key features are:
