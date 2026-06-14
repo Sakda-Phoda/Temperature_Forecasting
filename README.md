@@ -7,7 +7,7 @@ This project helps businesses, agricultural planners, and policymakers in Thaila
 * **Data Preparation:** Cleaned and verified daily temperature records (2022-2025) to ensure a complete dataset with no missing values.
 * **Exploratory Data Analysis (EDA):** Identified highly consistent, normally distributed seasonal temperature patterns.
 * **Model Building:** Engineered time-based features (including Fourier terms and lags) and evaluated Prophet, SARIMAX, and LightGBM algorithms.
-* **Model Performance:** Selected the Tuned Prophet model as the optimal approach, achieving an impressive 4.07% CV MAPE and revealing a slight downward cooling trend for 2026.
+* **Model Performance:** Selected the Tuned Prophet model as the optimal approach, achieving an impressive 4.19% CV MAPE and revealing a slight downward cooling trend for 2026.
 
 ## Resources Used
 * **Language:** Python
@@ -63,7 +63,7 @@ The models were evaluated using Cross-Validation Mean Absolute Percentage Error 
 
 ![alt text](image-7.png)
 
-After hyperparameter tuning via Optuna, the **Tuned Prophet** model achieved an even better **CV MAPE of 4.07%**.
+After hyperparameter tuning via Optuna, the **Tuned Prophet** model achieved an even better **CV MAPE of 4.19%**.
 
 ![alt text](image-5.png)
 
